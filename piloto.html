@@ -9,12 +9,14 @@
 	<meta name ="keywords" content ="Moto, MotoGP, Piloto, Marco Bezzecchi" />
 	<meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
     <title>MotoGP-Piloto</title>
+	<link rel=icon href=multimedia/favicon.ico sizes="48x48" type="image/vnd.microsoft.icon">
 	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
 </head>
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>MotoGP Desktop</h1>
+	<header>
+    <h1><a href="index.html">MotoGP Desktop</a></h1>
 	<nav>
 		<a href="index.html">Inicio</a>
 		<a href="piloto.html">Piloto</a>
@@ -24,7 +26,12 @@
 		<a href="juegos.html">Juegos</a>
 		<a href="ayuda.html">Ayuda</a>
 	</nav>
-	<p>en desarrollo</p>
+	</header>
+	<aside>
+	<p>Estás en <a href="index.html">Inicio</a> >> Piloto</p>
+	</aside>
+	<main>
+	<section>
 	<h2>Marco Bezzecchi</h2>
 	<p>Marco Bezzecchi (Rimini, Italia; 12 de noviembre de 1998) es un piloto de motociclismo italiano. 
 	Fue tercero del Campeonato del Mundo de Motociclismo de Moto3 en 2018 y de Moto2 en 2021. Desde 2022 
@@ -45,6 +52,8 @@
 		<li> Moto: Aprilia </li>
 		<li> Dorsal: 72 </li>
 	</ul>
+	</section>
+	<section>
 	<h3> Biografía </h3>
 	<p> En 2015, participó en el campeonato italiano de velocidad, ganando, en esta temporada, el título
 	en la clase de Moto3 con una Mahindra Peugeot del equipo Minimoto Portomaggiore.​ También en 2015
@@ -66,6 +75,12 @@
 	junto con una pole postion en Tailandia.​ Terminó la temporada en la tercera posición detrás del campeón
 	Jorge Martín y del subcampeón Fabio Di Giannantonio.</p>
 	<p>En 2019, salto a Moto2 con el equipo Red Bull KTM Tech3, haciendo equipo con el alemán Philipp Öttl.</p>
+	<video controls autoplay>
+ 		<source src='multimedia/marco-bezzecchi.mp4' type='video/mp4'>
+		<source src='multimedia/marco-bezzecchi.webm' type='video/webm3'>
+	</video>
+	</section>
+	<section>
 	<h3> Historial de equipos </h3>
 	<ol>
 		<li> Moto3 - San Carlo Team Italia (2015) </li>
@@ -79,6 +94,8 @@
 		<li> MotoGP - Pertamina Enduro VR46 Racing Team (2024) </li>
 		<li> MotoGP - Aprilia Racing (2025) </li>
 	</ol>
+	</section>
+	<section>
 	<h3> Definiciones MotoGP </h3>
 	<dl>
 		<dt> Chicane </dt>
@@ -97,17 +114,24 @@
 		<dd> orden de salida de los pilotos al inicio de una carrera, determinado por su rendimiento
 		en las sesiones de clasificación </dd>
 	</dl>
+	</section>
+	<section>
 	<h3> Temporada 2024 </h3>
 	<table>
 		<thead>
-			<tr> <th> Puntos </th> <th> Posición </th> <th> Poles </th> <th> Victorias </th> <th> Podios </th>
+			<tr> <th scope=col id="c1"> Puntos </th> <th scope=col id="c2"> Posición </th> <th scope=col id="c3"> Poles </th> 
+			<th scope=col id="c4"> Victorias </th> <th scope=col id="c5"> Podios </th>
 		</thead>
 		<tbody>
-			<tr> <td> 153 </td> <td> 12º </td> <td> 0 </td> <td> 0 </td> <td> 1 </td>
+			<tr> <td headers="c1"> 153 </td> <td headers="c2"> 12º </td> <td headers="c3"> 0 </td> <td headers="c4"> 0 </td> <td headers="c5"> 1 </td>
 		</tbody>
 	</table>
+	</section>
+	<section>
 	<h3> Más información </h3>
 	<a href="https://www.motogp.com/es/riders/marco-bezzecchi/e622ec5b-5ccf-457c-a67f-ec028f0ddf6e?tab=overview">MotoGP</a>
 	<a href="https://es.wikipedia.org/wiki/Marco_Bezzecchi">Wikipedia</a>	
+	</section>
+	</main>
 </body>
 </html>

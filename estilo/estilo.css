@@ -1,3 +1,35 @@
 /* Mario Amandi San Martín UO302457/
 
- /* Estilos generales del proyecto MotoGP-Desktop*/
+/* Estilos generales del proyecto MotoGP-Desktop
+   Paleta de colores:
+   Baby Blue: #b1d4e0
+   Misty Blue: #afc1d0
+   Navy Blue: #1c3f60
+   Black: #0b1320
+*/
+
+/* Especificidad: 0,0,1 */
+/* El color, fuente y fondo se hereda a todo el contenido */
+body {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    background-color: #1c3f60; /* Navy Blue */
+    color: #b1d4e0; /* Baby Blue */
+}
+
+/* Especificidad: 0,0,1 */
+/* Se sobrescribe el fondo */
+header {
+    background-color: #afc1d0; /* Misty Blue */
+}
+
+/* Especificidad: 0,0,1 */
+/* Se sobrescribe el color */
+h1 {
+    color: #0b1320; /* Black */
+}
+
+/* Especificidad: 0,0,1 */
+/* Se sobrescribe el color */
+nav {
+    color: #0b1320; /* Black */
+}
